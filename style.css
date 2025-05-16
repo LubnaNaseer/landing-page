@@ -1,0 +1,173 @@
+body{
+    overflow-x: hidden;
+} 
+ .here{
+    color: rgb(241, 117, 117);
+}
+    .service-card {
+      background-color: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      height: 100%;
+    }
+    .service-icon {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 15px;
+    }
+    .highlight {
+      background-color: #f9f9f9;
+      border-radius: 20px;
+      position: relative;
+      
+    }
+        .destination-card {
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+      transition: transform 0.3s;
+      height: 100%;
+    }
+
+    .destination-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 5px gainsboro;
+    }
+
+    .destination-img {
+      width: 100%;
+       height: 500px; 
+      object-fit: cover;
+    }
+
+    .destination-info {
+      padding: 20px;
+    }
+
+    .trip-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .trip-meta i {
+      margin-right: 5px;
+    }
+.heloo{
+    width: 90%;
+}
+
+.step-icon{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+}
+.live:hover{
+        background-color:rgb(247, 197, 106);
+
+}
+.Testimonails-section{
+    padding: 60px 20px;
+    background-color: #fff;
+}
+.Testimonails-section h6{
+    text-transform: uppercase;
+    color: #888;
+    font-weight: 500;
+}
+.Testimonails-section h2{
+    font-weight: 700;
+    color: #1e1e2f;
+}
+.testimonail-card{
+    background-color: #f8f9fa;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05)
+}
+    .testimonial-text{
+        font-size: 0.95rem;
+        color: #555;
+        margin-bottom: 15px;
+    }
+       .testimonial-author{
+font-weight: 600;
+margin-bottom: 4px;
+ }
+ .testimonial-loction{
+    font-size: 0.85rem;
+    color: #999;
+    
+ }
+ .subscribe-section{
+    background:#f7f5fc;
+    padding: 60px;
+    border-radius: 30px 3px;
+    max-width: fit-content;
+    
+ }
+ .subscribe-input{
+    max-width: 600px;
+    margin: auto;
+    padding: 5px;
+ }
+ .subscribe-section h5{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #4b4b5a;
+ }
+ .butt{
+    border-radius: 0 8px 8px 0;
+    border: none;
+    background-color: #fff;
+    padding: 10px;
+    margin-left: 20px;
+     max-width: 25%;
+ }
+ .butt:hover{
+    background-color: #ff543e;
+ }
+ .footer{
+    background: linear-gradient(90deg,#fff #f7f7fb);
+    padding: 40px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .logo{
+    font-size: 28px ;
+    font-weight: bold;
+    color: #1e1e2f;
+ }
+ .social-icons{
+    margin-left: 15px;
+    color: #555;
+ }
+ .footer-bottom{
+    text-align: center;
+    font-size: 14px ;
+    color: #888;
+    margin-top: 30px;
+ }
+ @media (max-width=768px) {
+     .subscribe-section{
+ margin: auto;
+  
+ }
+ .mini-card{
+    flex-wrap: wrap;
+ }
+
+}
+
+
+
+/* .io{
+    position: relative;
+    top: 30px;
+    right: 20vh;
+} */
